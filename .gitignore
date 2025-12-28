@@ -1,13 +1,43 @@
 # Environment files
 .env
 .env.*
+.env.local
+.env.production
 env
 env/
 venv/
 .venv/
+
+# Secrets and API keys
+*.key
+*.pem
+secrets.json
+credentials.json
 
 # Byte-compiled / cache
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.so
+
+# Test output files
+test_output*.txt
+*.log
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
